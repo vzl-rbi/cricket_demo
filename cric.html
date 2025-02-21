@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket project</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1> Bat Ball And Stump</h1>
+    <button onclick=" const user1Choice = 'You Have choose Bat';
+    console.log(user1Choice);
+    let computerChoice =Math.random()*3;
+    if( computerChoice>=0 && computerChoice<=1 ){
+        computerChoice = 'Bat';
+        console.log('Computer has chosen Bat');
+
+    }else if(computerChoice>=1.1 && computerChoice<=2 ) {
+        computerChoice = 'Ball';
+        console.log('Computer has chosen Ball');
+
+    }else{
+        computerChoice = 'Stump';
+        console.log('Computer has chosen Stump');
+    }
+    if(computerChoice==='Bat'){
+        console.log('Game is draw');
+    }else if(computerChoice==='Ball'){
+        console.log(' User Won The match');
+    }else{
+        console.log(' Computer Won The match');
+    }
+    "> Bat</button>
+
+    <button onclick=" const user2Choice = 'You Have choose Ball';
+    console.log(user2Choice);
+    let computerChoice2 =Math.random()*3;
+    if( computerChoice2>=0 && computerChoice2<=1 ){
+        console.log('Computer has chosen Bat');
+
+    }else if(computerChoice2>=1.1 && computerChoice2<=2 ) {
+        console.log('Computer has chosen Ball');
+
+    }else{
+        console.log('Computer has chosen Stump');
+    }
+    "> Ball</button>
+
+    <button onclick=" const user3Choice = 'You Have choose Stump';
+    console.log(user3Choice);
+    let computerChoice3 =Math.random()*3;
+    if( computerChoice3>=0 && computerChoice3<=1 ){
+        console.log('Computer has chosen Bat');
+
+    }else if(computerChoice3>=1.1 && computerChoice3<=2 ) {
+        console.log('Computer has chosen Ball');
+
+    }else{
+        console.log('Computer has chosen Stump');
+    }
+    "> Stump</button>
+    <script>
+
+    </script>
+</body>
+</html>
